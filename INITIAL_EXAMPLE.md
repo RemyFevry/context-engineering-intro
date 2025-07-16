@@ -1,22 +1,23 @@
 ## FEATURE:
 
-- Pydantic AI agent that has another Pydantic AI agent as a tool.
-- Research Agent for the primary agent and then an email draft Agent for the subagent.
+- Pocket Flow multi agent project.
+- The goal of the project is to retrieve emails from the past month, filter the email by title to determine if they are job application, the provide a summary table with the state of all job applications
+- Research Agent to try to find the related job posting on Linkedin,Glassdoor,etc.
 - CLI to interact with the agent.
-- Gmail for the email draft agent, Brave API for the research agent.
+- Gmail for the email agent, Brave API for the research agent.
 
 ## EXAMPLES:
 
 In the `examples/` folder, there is a README for you to read to understand what the example is all about and also how to structure your own README when you create documentation for the above feature.
 
 - `examples/cli.py` - use this as a template to create the CLI
-- `examples/agent/` - read through all of the files here to understand best practices for creating Pydantic AI agents that support different providers and LLMs, handling agent dependencies, and adding tools to the agent.
+- `examples/agent/` - read through all of the files here to understand best practices for creating Pocket Flow Nodes that support different providers and LLMs, handling agent dependencies, and adding tools to the agent.
 
 Don't copy any of these examples directly, it is for a different project entirely. But use this as inspiration and for best practices.
 
 ## DOCUMENTATION:
 
-Pydantic AI documentation: https://ai.pydantic.dev/
+Pocket Flow documentation: https://the-pocket.github.io/PocketFlow/
 
 ## OTHER CONSIDERATIONS:
 
